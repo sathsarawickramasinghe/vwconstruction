@@ -1,0 +1,40 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 35px;
+    max-width: 800px;
+
+}
+.right-col{
+    flex-basis: 60%;
+}
+.left-col{
+    flex-basis: 30%;
+}
+.right-col ul li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.right-col ul li img{
+    width: 30px;
+    margin-right: 25px;
+}
+
+/* media query */
+
+@media (max-width:700px){
+    .contact{
+        display: block;
+    }
+
+    .left-col , .right-col{
+        padding: 20px;
+    }
+}
+
